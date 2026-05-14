@@ -101,4 +101,6 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:Amlmy/Amlmy.github.io.git
+  branch: main  # 请确认你的 GitHub 仓库分支是 main 还是 master
